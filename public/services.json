@@ -1,0 +1,54 @@
+{"services":[
+  { 
+    "id" : "srv001",
+   "name": "Massage Express",
+    "description": "30 min de détente musculaire.", 
+    "duration": 30 },
+
+  { "id": "srv002",
+   "name": "Coupe de cheveux",
+    "description": "Coupe classique homme/femme.",
+     "duration": 20 },
+
+  { "id": "srv003", 
+  "name": "Consultation médicale",
+   "description": "Visite chez un généraliste.",
+    "duration": 15 },
+
+  { "id": "srv004",
+   "name": "Cours de Yoga", 
+   "description": "Séance individuelle de yoga.", 
+   "duration": 60 },
+   
+  { "id": "srv005", 
+  "name": "Diagnostic PC", 
+  "description": "Vérification matérielle et logicielle.", 
+  "duration": 45 }
+],
+"slots" :[
+  { "id": "slot001",
+   "serviceId": "srv001",
+    "dateTime": "2025-05-27T09:00:00Z",
+     "isBooked": false },
+  { "id": "slot002", 
+  "serviceId": "srv001", 
+  "dateTime": "2025-05-27T09:30:00Z", 
+  "isBooked": false },
+  { "id": "slot003",
+   "serviceId": "srv002", 
+   "dateTime": "2025-05-27T10:00:00Z", 
+   "isBooked": false },
+  { "id": "slot004", 
+  "serviceId": "srv003", 
+  "dateTime": "2025-05-27T11:00:00Z",
+   "isBooked": true },
+  { "id": "slot005", 
+  "serviceId": "srv004",
+   "dateTime": "2025-05-27T13:00:00Z", 
+   "isBooked": false },
+  { "id": "slot006", 
+  "serviceId": "srv005", 
+  "dateTime": "2025-05-27T14:30:00Z", 
+  "isBooked": false }
+]
+}
